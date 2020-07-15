@@ -47,3 +47,36 @@ var soccerTeams = ["Tottenham", "Arsenal", "Leicestar", "Liverpool", "Man City",
 for (var i = 0; i < soccerTeams.length; i++) {
     console.log(soccerTeams[i]);
 }
+
+// Objects
+// key: value pairs
+const tanner = {
+    fullName: "Tanner Leigh", 
+    age: 32,
+    myLocation: "Los Angeles",
+    placesTraveled: ["Turkey", "South Korea", "New York", "Nevada"]
+}
+console.log(tanner);
+
+// print myLocation
+console.log(tanner.myLocation);
+
+// print New York
+console.log(tanner.placesTraveled[2]);
+
+// social media post
+const myReallyCoolPost = {
+    username: "@tnrleigh",
+    likes: "300",
+    comments: ["great post", "nice", "javascript", "woah"],
+    caption: "Day 3 of SEI",
+    picture: "https://instgram.com/generalassembly/....",
+    shares: 12
+}
+//likes, captions, shares, comments, username, picture
+console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = "San Fran";
+console.log(myReallyCoolPost);
+
+//instagram post object
