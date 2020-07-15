@@ -41,3 +41,9 @@ for (var i = 0; i< teams.length; i++) {
     var eachTeam = teams[i];
     console.log(eachTeam);
 }
+
+// print soccer teams
+var soccerTeams = ["Tottenham", "Arsenal", "Leicestar", "Liverpool", "Man City", "Man United"];
+for (var i = 0; i < soccerTeams.length; i++) {
+    console.log(soccerTeams[i]);
+}
