@@ -118,3 +118,20 @@ function printNumbers(array) {
     }
 }
 printNumbers(otherNumbers);
+
+//returning a value
+function addNumbers(array) {
+    let result = 0;
+
+    for (let i = 0; i < array.length; i++) {
+        let num = array[i];
+
+        result += num;
+
+    }
+    return result;
+}
+console.log(addNumbers(numbers));
+
+//or let myResult = addNUmbers(numbers);
+//console.log(myResult);
