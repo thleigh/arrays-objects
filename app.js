@@ -79,4 +79,42 @@ console.log(myReallyCoolPost);
 myReallyCoolPost.myLocation = "San Fran";
 console.log(myReallyCoolPost);
 
-//instagram post object
+
+// functions
+
+// standard
+function sayHello() {
+    //write my code
+    //write your logic
+    console.log("Hello");
+}
+sayHello();
+
+// function expression
+const sayHelloAgain = function() {
+    console.log("Hello Again");
+}
+sayHelloAgain();
+
+// arrow function
+const sayHelloFinal = () => {
+    console.log("Hello for the last time");
+}
+sayHelloFinal();
+
+// adding parameters
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const otherNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+function printNumbers(array) {
+    for(let i = 0; i < array.length; i++) {
+        let num = array[i];
+        
+        if (num < 50) {
+            console.log("this number is less than 50: " + num);
+        } else {
+            console.log("this number is greater than 50: " + num);
+        }
+    }
+}
+printNumbers(otherNumbers);
